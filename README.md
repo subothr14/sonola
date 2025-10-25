@@ -35,5 +35,20 @@ A modern desktop application built using **React** and **Electron**, combining t
 ```bash
 git clone https://github.com/your-username/your-app-name.git
 cd your-app-name
+```
 
+### 2.Install Dependencies
+```bash
+npm install
+```
+
+### 3.Run the App in Development Mode
+```bash
+npm run dev
+```
+### 4.Build the App for Production
+```bash
+npm run build
+npm run build:electron
+```
 
