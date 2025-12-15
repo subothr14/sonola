@@ -1,31 +1,54 @@
-# React + TypeScript + Vite
+# ⚡ React + Electron App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern desktop application built using **React** and **Electron**, combining the performance of native desktop apps with the flexibility of web technologies.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚛️ Built with React (hooks + functional components)
+- ⚡ Powered by Electron for cross-platform desktop apps
+- 🌙 Dark / Light mode support
+- 🔄 Live reload during development
+- 💾 Local data persistence support (e.g., IndexedDB or localStorage)
+- 📦 Easy packaging and auto-updates via Electron Builder
+- 🎨 Modern UI with Tailwind CSS or custom styles
+- ☁️ Framer Motion for smooth animations
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🧩 Tech Stack
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+| Layer | Technology |
+|--------|-------------|
+| Frontend | React (Vite or CRA) |
+| Desktop Runtime | Electron |
+| Styling | Tailwind CSS / CSS Modules |
+| Packaging | Electron Builder |
+
+
+---
+
+## 🛠️ Installation & Setup
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/your-app-name.git
+cd your-app-name
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-"# sonola" 
+### 2.Install Dependencies
+```bash
+npm install
+```
+
+### 3.Run the App in Development Mode
+```bash
+npm run dev
+```
+### 4.Build the App for Production
+```bash
+npm run build
+npm run build:electron
+```
+
