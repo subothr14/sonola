@@ -18,7 +18,7 @@ function Profile() {
           duration: 1,
         }}
       >
-        <h2 className="text-3xl">Profile</h2>
+        <h2 className="text-3xl">Your Profile</h2>
        
       </motion.div>
     </AnimatePresence>

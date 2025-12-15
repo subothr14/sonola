@@ -50,7 +50,7 @@ function SubscriptionCard() {
                   duration: 1,
                   delay:1.9,
                 }}
-                className="bg-gradient-to-b from-blue-700 text-white to-violet-500 p-3 rounded-3xl w-[100%] font-semibold cursor-pointer hover:bg-blue-800 duration-150 justify-center flex"
+                className="bg-gradient-to-b  from-blue-700 text-white to-violet-500 p-3 rounded-3xl w-[100%] font-semibold cursor-pointer hover:bg-blue-800 duration-150 justify-center flex"
               >
                 Get Pro
               </motion.button>
