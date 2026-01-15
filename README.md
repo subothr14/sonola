@@ -33,8 +33,7 @@ A modern desktop application built using **React** and **Electron**, combining t
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-app-name.git
-cd your-app-name
+git clone https://github.com/subothr14/sonola.git
 ```
 
 ### 2.Install Dependencies
