@@ -16,8 +16,8 @@ function GetStart() {
     if (os === "Windows") {
       return (
         <a
-          href="https://drive.google.com/file/d/1JBt5xGvIuM5HGFR7WTuCVkkTLxSF3S_9/view?usp=drive_link"
-          download
+          href="https://github.com/subothr14/sonola"
+          
           className="flex items-center gap-2 border-2 text-center justify-center border-white rounded-2xl p-4 font-semibold hover:scale-105 transition"
         >
           Download for Windows <BsMicrosoft />
@@ -28,8 +28,8 @@ function GetStart() {
     if (os === "MacOS") {
       return (
         <a
-          href="/Sonola_Setup.dmg"
-          download
+          href="https://github.com/subothr14/sonola"
+        
           className="flex items-center gap-2 border-2 text-center justify-center border-white rounded-2xl p-4 font-semibold hover:scale-105 transition"
         >
           Download for Mac <BsApple />
