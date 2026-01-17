@@ -1,23 +1,23 @@
-# ⚡ React + Electron App
+# React + Electron App
 
 A modern desktop application built using **React** and **Electron**, combining the performance of native desktop apps with the flexibility of web technologies.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ⚛️ Built with React (hooks + functional components)
-- ⚡ Powered by Electron for cross-platform desktop apps
-- 🌙 Dark / Light mode support
-- 🔄 Live reload during development
-- 💾 Local data persistence support (e.g., IndexedDB or localStorage)
-- 📦 Easy packaging and auto-updates via Electron Builder
-- 🎨 Modern UI with Tailwind CSS or custom styles
-- ☁️ Framer Motion for smooth animations
+- Built with React (hooks + functional components)
+- Powered by Electron for cross-platform desktop apps
+- Dark / Light mode support
+- Live reload during development
+- Local data persistence support (e.g., IndexedDB or localStorage)
+- Easy packaging and auto-updates via Electron Builder
+- Modern UI with Tailwind CSS or custom styles
+- Framer Motion for smooth animations
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |--------|-------------|
@@ -29,7 +29,7 @@ A modern desktop application built using **React** and **Electron**, combining t
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
